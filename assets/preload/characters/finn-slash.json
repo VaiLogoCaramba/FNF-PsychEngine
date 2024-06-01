@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				195,
+				108
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Charge"
+		},
+		{
+			"offsets": [
+				-306,
+				224
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Hit"
+		},
+		{
+			"offsets": [
+				-208,
+				43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Second-Hit"
+		},
+		{
+			"offsets": [
+				-309,
+				226
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Hit"
+		},
+		{
+			"offsets": [
+				-210,
+				46
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Second-Hit"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-310,
+				227
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Hit",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-201,
+				43
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Second-Hit",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-302,
+				224
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Hit",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-204,
+				44
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Second-Hit",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Finn-Slash",
+	"position": [
+		-470,
+		-120
+	],
+	"healthicon": "finn",
+	"flip_x": false,
+	"healthbar_colors": [
+		168,
+		160,
+		179
+	],
+	"camera_position": [
+		330,
+		20
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
