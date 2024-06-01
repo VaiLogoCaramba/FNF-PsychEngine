@@ -201,7 +201,7 @@
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/cartoon_bf_Gun",
+	"image": "shared/images/characters/cartoon_bf_Gun",
 	"position": [
 		0,
 		350
