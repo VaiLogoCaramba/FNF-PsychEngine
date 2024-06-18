@@ -1,33 +1,33 @@
 function onCreate()
 	--intro
 	makeLuaSprite('img', 'cawm/intro/img', 150, 300)
-	scaleObject('img', 0.85, 0.85)
+	scaleObject('img', 3.4, 3.4)
 	setScrollFactor('img', 1, 1)
 	addLuaSprite('img')
 
     makeLuaSprite('titulo3', 'cawm/intro/Ilustracion_sin_titulo-3', 150, 300)
-    scaleObject('titulo3', 0.85, 0.85)
+    scaleObject('titulo3', 3.4, 3.4)
     setScrollFactor('titulo3', 1, 1)
     addLuaSprite('titulo3', true)
 
 	makeLuaSprite('titulo2', 'cawm/intro/Ilustracion_sin_titulo-2', 250, 500)
-	scaleObject('titulo2', 0.85, 0.85)
+	scaleObject('titulo2', 3.4, 3.4)
 	setScrollFactor('titulo2', 1.2, 1.2)
 	addLuaSprite('titulo2')
 
 	makeLuaSprite('titulo2t', 'cawm/intro/Ilustracion_sin_titulo-2t', 250, 500)
-	scaleObject('titulo2t', 0.85, 0.85)
+	scaleObject('titulo2t', 3.4, 3.4)
 	setScrollFactor('titulo2t', 1.2, 1.2)
 	addLuaSprite('titulo2t', true)
 
 	makeLuaSprite('titulo1', 'cawm/intro/Ilustracion_sin_titulo-1', 150, 300)
-	scaleObject('titulo1', 0.85, 0.85)
+	scaleObject('titulo1', 3.4, 3.4)
 	setScrollFactor('titulo1', 1, 1)
 	addLuaSprite('titulo1')
 ---------------------------------------------------------------------------------
 	
 	makeLuaSprite('cs', 'cawm/reveal/CameraShtuff', 0, 0)
-	scaleObject('cs', 1, 1)
+	scaleObject('cs', 4, 4)
 	setScrollFactor('cs', 1, 1)
 	setObjectCamera('cs', 'camHUD')
 	addLuaSprite('cs', true)
@@ -40,7 +40,7 @@ function onCreate()
 	addLuaSprite('glitch')
  
     makeLuaSprite('hstf', 'cawm/reveal/HillStuff', 150, 600)
-	scaleObject('hstf', 0.85, 0.85)
+	scaleObject('hstf', 1.7, 1.7)
 	setScrollFactor('hstf', 1, 1)
 	addLuaSprite('hstf')
 
@@ -55,25 +55,25 @@ function onCreate()
 	addLuaSprite('aboveglitch')
 
 	makeLuaSprite('particles', 'cawm/reveal/Particles', 150, 600)
-	scaleObject('particles', 0.85, 0.85)
+	scaleObject('particles', 3.4, 3.4)
 	setScrollFactor('particles', 1, 1)
 	addLuaSprite('particles', true)
 
 	makeLuaSprite('corruption', 'cawm/reveal/Corruption', 150, 600)
-	scaleObject('corruption', 0.85, 0.85)
+	scaleObject('corruption', 3.4, 3.4)
 	setScrollFactor('corruption', 1.1, 1.1)
 	setProperty('corruption.alpha', 0.5, 0.5)
 	addLuaSprite('corruption', true)
 
 	makeAnimatedLuaSprite('lighting', 'cawm/Lighting', 1050, 150);
 	addAnimationByPrefix('lighting', 'lgtng', 'LIGHTNING', 14 , false);
-	scaleObject('lighting', 1, 1)
+	scaleObject('lighting', 4, 4)
 	addLuaSprite('lighting')
 
    makeAnimatedLuaSprite('rain', 'rain', 0, 200)
    addAnimationByPrefix('rain', 'rain rain', 'rain rain', 26 , true)
    setScrollFactor('rain', 0.9, 0.9)
-   scaleObject('rain', 2, 2)
+   scaleObject('rain', 4, 4)
    doTweenAlpha('rain','rain',0,0.01,'linear')
    addLuaSprite('rain', true)
 
@@ -91,12 +91,12 @@ function onCreate()
 ----------------------------------------------------------------------------------
 
    	makeLuaSprite('back', 'cawm/back', -200, -50)
-	scaleObject('back', 1, 1)
+	scaleObject('back', 2, 2)
 	setScrollFactor('back', 0.6, 0.6)
 	addLuaSprite('back')
 
 	makeLuaSprite('tree', 'cawm/tree', 0, 200)
-	scaleObject('tree', 1, 1)
+	scaleObject('tree', 2, 2)
 	setScrollFactor('tree', 1, 1)
 	addLuaSprite('tree')
 
@@ -178,9 +178,9 @@ function onUpdate()
             
             doTweenY('ermBF', 'boyfriend', 1800, 0.001, 'linear')
             
-            doTweenX('DAD', 'dad', 1100, 0.001, 'linear')
+            doTweenX('DAD', 'dad', 1300, 0.001, 'linear')
             
-            doTweenY('ermDAD', 'dad', 1700, 0.001, 'linear')
+            doTweenY('ermDAD', 'dad', 1800, 0.001, 'linear')
 
            --setObjectCamera('rain', 'camHUD')
            --scaleObject('rain', 1, 1)

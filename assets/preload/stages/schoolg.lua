@@ -2,21 +2,21 @@ function onCreate()
 
     makeLuaSprite('1', 'school/Ilustracion_sin_titulo-1', 0, 0)
     addLuaSprite('1')
-    scaleObject('1', 1.5, 1.5)
+    scaleObject('1', 3.0, 3.0)
 
     makeLuaSprite('2', 'school/Ilustracion_sin_titulo-2', -300, 0)
     addLuaSprite('2', true)
-    scaleObject('2', 1.5, 1.5)
+    scaleObject('2', 6.0, 6.0)
     setScrollFactor('2', 1.1, 1.1)
 
     makeLuaSprite('rscreen', 'school/rscreen', 0, 0)
     addLuaSprite('rscreen')
-    scaleObject('rscreen', 0.7, 0.7)
+    scaleObject('rscreen', 2.8, 2.8)
     setObjectCamera('rscreen', 'other')
 
     makeLuaSprite('bscreen', 'school/bscreen', 0, 0)
     addLuaSprite('bscreen')
-    scaleObject('bscreen', 0.7, 0.7)
+    scaleObject('bscreen', 2.8, 2.8)
     setObjectCamera('bscreen', 'other')
 
     --makeLuaSprite('light', 'school/gltch/light', -100, 0)
@@ -25,12 +25,12 @@ function onCreate()
 
     makeLuaSprite('stitulo', 'school/gltch/188_sin_titulo11_20230523094718', -100, 0)
     addLuaSprite('stitulo', true)
-    scaleObject('stitulo', 1, 1)
+    scaleObject('stitulo', 4, 4)
     setBlendMode('stitulo2', 'add')
 
     makeLuaSprite('stitulo2', 'school/gltch/188_sin_titulo11_20230523094718', -100, 0)
     addLuaSprite('stitulo2', true)
-    scaleObject('stitulo2', 1, 1)
+    scaleObject('stitulo2', 4, 4)
     setBlendMode('stitulo2', 'add')
 
    
@@ -59,35 +59,39 @@ function onCreate()
     makeAnimatedLuaSprite('topgoop', 'school/gltch/topgoop', -150, 50)----
     addAnimationByPrefix('topgoop', 'gooey', 'gooey', 20, true)
     addLuaSprite('topgoop', true)
-    scaleObject('topgoop', 1.5, 1.5)
+    scaleObject('topgoop', 3.0, 3.0)
 
     makeAnimatedLuaSprite('pennygl', 'school/gltch/penny', 900, 250)
     addAnimationByPrefix('pennygl', 'idle', 'idle', 15, true)
     addLuaSprite('pennygl')
-    scaleObject('pennygl', 1.25, 1.25)
+    scaleObject('pennygl', 2.5, 2.5)
 
 ----------------------------------------------------------------------------------------------
    
     
     makeAnimatedLuaSprite('carrie', 'school/carrie', 600, 300)
+    scaleObject('carrie', 2.0, 2.0);
     addAnimationByPrefix('carrie', 'idle', 'idle', 27, true)
     addLuaSprite('carrie')
     setProperty('carrie.alpha', 0.85)
 
     makeAnimatedLuaSprite('alan', 'school/alan', 1300, 450)
     addAnimationByPrefix('alan', 'idle', 'idle', 16, false)
-    scaleObject('alan', 0.5, 0.5)
+    scaleObject('alan', 1.0, 1.0)
     addLuaSprite('alan')
 
     makeAnimatedLuaSprite('penny', 'school/penny', 1200, 450)
+    scaleObject('penny', 2.0, 2.0);
     addAnimationByPrefix('penny', 'idle', 'idle', 24, true)
     addLuaSprite('penny')
 
     makeAnimatedLuaSprite('tobias', 'school/fla tobias', 800, 525)
+    scaleObject('tobias', 2.0, 2.0);
     addAnimationByPrefix('tobias', 'idle', 'idle', 24, true)
     addLuaSprite('tobias')
 
     makeAnimatedLuaSprite('masami', 'school/masami', 1800, 425)
+    scaleObject('masami', 2.0, 2.0);
     addAnimationByPrefix('masami', 'idle', 'idle', 24, true)
     addLuaSprite('masami')
 
@@ -95,27 +99,31 @@ function onCreate()
     addAnimationByPrefix('bj', 'idle', 'idle', 25, false)
     addLuaSprite('bj', true)
     setScrollFactor('bj', 1.25, 1.25)
-    scaleObject('bj', 0.9, 0.9)
+    scaleObject('bj', 3.6, 3.6)
 
 
     makeAnimatedLuaSprite('carrier', 'school/red/carrie', 600, 295)
+    scaleObject('carrier', 4.0, 4.0)
     addAnimationByPrefix('carrier', 'idle', 'idle', 27, true)
     addLuaSprite('carrier')
 
     makeAnimatedLuaSprite('alanr', 'school/red/alan', 1315, 390)
     addAnimationByPrefix('alanr', 'idle', 'idle', 16, true)
-    scaleObject('alanr', 0.5, 0.5)
+    scaleObject('alanr', 2.0, 2.0)
     addLuaSprite('alanr')
 
     makeAnimatedLuaSprite('pennyr', 'school/red/penny', 1200, 450)
+    scaleObject('pennyr', 4.0, 4.0)
     addAnimationByPrefix('pennyr', 'idle', 'idle', 24, true)
     addLuaSprite('pennyr')
 
     makeAnimatedLuaSprite('tobiasr', 'school/red/fla tobias', 795, 525)
+    scaleObject('tobiasr', 4.0, 4.0)
     addAnimationByPrefix('tobiasr', 'idle', 'idle', 24, true)
     addLuaSprite('tobiasr')
 
     makeAnimatedLuaSprite('masamir', 'school/red/masami', 1790, 400)
+    scaleObject('masamir', 4.0, 4.0)
     addAnimationByPrefix('masamir', 'idle', 'idle', 24, true)
     addLuaSprite('masamir')
 
@@ -123,7 +131,7 @@ function onCreate()
     addAnimationByPrefix('bjr', 'idle', 'idle', 25, false)
     addLuaSprite('bjr', true)
     setScrollFactor('bjr', 1.25, 1.25)
-    scaleObject('bjr', 0.9, 0.9)
+    scaleObject('bjr', 3.6, 3.6)
 
 doTweenAlpha('rscreenAlpha','rscreen',math.random(0, 0), 0.7,'cubeInOut')
 doTweenAlpha('bscreenAlpha','rscreen',math.random(0, 0), 1.1,'cubeInOut')

@@ -2,41 +2,41 @@ function onCreate()
 
 makeAnimatedLuaSprite('void1', 'fw/void', -450, -100)
 addAnimationByPrefix('void1', 'idle', 'idle', 50, true)
-scaleObject('void1', 1.4, 1.4)
+scaleObject('void1', 5.6, 5.6)
 setScrollFactor('void1', 0.3, 0.3)
 addLuaSprite('void1')
 setProperty('void1.visible', true)
 
 makeAnimatedLuaSprite('void', 'fw/void', -450, -100)
 addAnimationByPrefix('void', 'idle', 'idle', 50, true)
-scaleObject('void', 1.4, 1.4)
+scaleObject('void', 5.6, 5.6)
 setScrollFactor('void', 0.3, 0.3)
 addLuaSprite('void')
 setProperty('void.visible', false)
 
 makeLuaSprite('glitch', 'fw/glitch', -350, 250)
 setScrollFactor('glitch', 0.5, 0.5)
-scaleObject('glitch', 1.2, 1.2)
+scaleObject('glitch', 4.8, 4.8)
 addLuaSprite('glitch', false)
 
 makeLuaSprite('glitch2', 'fw/glitch2', -550, -200)
 setScrollFactor('glitch2', 0.5, 0.5)
-scaleObject('glitch2', 1.2, 1.2)
+scaleObject('glitch2', 4.8, 4.8)
 addLuaSprite('glitch2', false)
 setProperty('glitch2.visible', false)
 
 makeLuaSprite('4', 'fw/4', 50, 100)
-scaleObject('4', 1, 1)
+scaleObject('4', 4, 4)
 setScrollFactor('4', 0.5, 0.5 )
 addLuaSprite('4')
 
 makeLuaSprite('3', 'fw/3', 100, 400)
-scaleObject('3', 0.75, 0.75)
+scaleObject('3', 3.0, 3.0)
 setScrollFactor('3', 0.7, 0.7)
 addLuaSprite('3', false)
 
 makeLuaSprite('3b', 'fw/3b', 100, 400)
-scaleObject('3b', 0.75, 0.75)
+scaleObject('3b', 3.0, 3.0)
 setScrollFactor('3b', 0.7, 0.7)
 addLuaSprite('3b', false)
 setProperty('3b.visible', false)
@@ -66,22 +66,22 @@ addLuaSprite('4obj')
 setProperty('4obj.visible', false)
 
 makeLuaSprite('11', 'fw/11', -50, 100)
-scaleObject('11', 1, 1)
+scaleObject('11', 4, 4)
 setScrollFactor('11', 0.8, 0.8 )
 addLuaSprite('11')
 
 makeLuaSprite('lights', 'lights',-1600, -900)
-scaleObject('lights', 4, 4)
+scaleObject('lights', 8, 8)
 addLuaSprite('lights', true)
 setProperty('lights.visible', false)
 
 makeLuaSprite('6bg', 'fw/6bg', 100, 200)
-scaleObject('6bg', 1, 1)
+scaleObject('6bg', 4, 4)
 setScrollFactor('6bg', 0.7, 0.7)
 addLuaSprite('6bg')
 
 makeLuaSprite('5b', 'fw/5b', -150, 200)
-scaleObject('5b', 0.65, 0.65)
+scaleObject('5b', 2.6, 2.6)
 addLuaSprite('5b')
 
 makeLuaSprite('ok', 'fw/ok', -200, 800)
@@ -90,12 +90,12 @@ setScrollFactor('ok', 1.2, 1.2)
 addLuaSprite('ok', true)
 
 makeLuaSprite('66', 'fw/66', -100, 1100)
-scaleObject('66', 1.2, 1.2)
+scaleObject('66', 4.8, 4.8)
 setScrollFactor('66', 1.6, 1.6)
 addLuaSprite('66', true)
 
 makeLuaSprite('6', 'fw/6', 400, 1050)
-scaleObject('6', 1.5, 1.5)
+scaleObject('6', 6.0, 6.0)
 setScrollFactor('6', 1.6, 1.6)
 addLuaSprite('6', true)
 
@@ -104,14 +104,14 @@ addLuaSprite('6', true)
 makeLuaSprite('darwin heart', 'fw/darwin heart', 450, 175)
 addLuaSprite('darwin heart', true)
 setProperty('darwin heart.alpha', 0)
-scaleObject('darwin heart', 0.2, 0.2)
+scaleObject('darwin heart', 0.8, 0.8)
 setObjectCamera('darwin heart', 'camHUD')
 
 -------------heart--------------------------
 
 makeLuaSprite('12', 'fw/12', -450, 200)
 setScrollFactor('12', 0.5, 0.5)
-scaleObject('12', 1.2, 1.2)
+scaleObject('12', 4.8, 4.8)
 addLuaSprite('12', true)
 setProperty('12.visible', false)
 
@@ -223,14 +223,14 @@ setProperty('boyfriend.angle',getProperty('5b.angle'))
 
  if curStep >= 1 then
         doTweenAlpha('darwin heart', 'darwin heart', 1, 3, 'linear')
-        doTweenX('scaleX', 'darwin heart.scale', 0.25, 5, 'cubeOut')
-        doTweenY('scaleY', 'darwin heart.scale', 0.25, 5, 'cubeOut')
+        doTweenX('scaleX', 'darwin heart.scale', 1.0, 20, 'cubeOut')
+        doTweenY('scaleY', 'darwin heart.scale', 1.0, 20, 'cubeOut')
  end
 
  if curStep >= 112 then
         doTweenAlpha('darwin heart', 'darwin heart', 0, 0.2, 'linear')
-        doTweenX('scaleX', 'darwin heart.scale', 0.05, 0.1, 'cubeIn')
-        doTweenY('scaleY', 'darwin heart.scale', 0.05, 0.1, 'cubeIn')
+        doTweenX('scaleX', 'darwin heart.scale', 0.2, 0.4, 'cubeIn')
+        doTweenY('scaleY', 'darwin heart.scale', 0.2, 0.4, 'cubeIn')
  end
 
  if curBeat % 6 == 0 then

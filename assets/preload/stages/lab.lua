@@ -1,23 +1,23 @@
 function onCreate()
 
        makeLuaSprite('bg', 'ss/bg', 500, 400)
-       scaleObject('bg', 1.5, 1.5)
+       scaleObject('bg', 3.0, 3.0)
        addLuaSprite('bg', false)
 
        makeLuaSprite('dark', 'ss/dark', 500, -450)
-       scaleObject('dark', 1.5, 1.5)       
+       scaleObject('dark', 6.0, 6.0)       
        addLuaSprite('dark', true)      
        
        makeLuaSprite('light', 'ss/light', 500, -450)
-       scaleObject('light', 1.5, 1.5) 
+       scaleObject('light', 6.0, 6.0) 
        addLuaSprite('light', true)
        
        makeLuaSprite('bulb', 'ss/bulb', 500, -550)
-       scaleObject('bulb', 1.5, 1.5) 
+       scaleObject('bulb', 6.0, 6.0) 
        addLuaSprite('bulb', true)
 
        makeLuaSprite('lights', 'lights',-500, -500)
-       scaleObject('lights', 3, 3)
+       scaleObject('lights', 6, 6)
        addLuaSprite('lights', true)
        setProperty('lights.visible', false)
 
