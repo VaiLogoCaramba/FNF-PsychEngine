@@ -231,6 +231,7 @@ function onUpdate()
 
     setProperty('stitulo.visible', false)
     setProperty('stitulo2.visible', false)
+    setProperty('camHUD.visible', true)
 
     setProperty('secondtopgoop.visible', false)
     setProperty('sinkgoop.visible', false)
