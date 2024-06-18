@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
-			"loop": true,
 			"offsets": [
 				144,
 				94
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 24,
-			"name": "Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				459,
 				205
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Hurt1",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Hurt1"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				447,
 				202
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Hurt1",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Hurt1"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				460,
 				269
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Hurt2",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Hurt2"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				457,
 				272
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Hurt2",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Hurt2"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Finn-hurting",
 	"position": [
-		-30,
-		70
+		270,
+		270
 	],
 	"healthicon": "finn",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		179
 	],
 	"camera_position": [
-		-80,
-		-130
+		-360,
+		-300
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 2
 }

@@ -1,13 +1,14 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				-14,
 				37
 			],
-			"loop": true,
-			"fps": 10,
 			"anim": "idle",
+			"fps": 10,
+			"name": "scared",
 			"indices": [
 				1,
 				2,
@@ -25,15 +26,14 @@
 				14,
 				4,
 				3
-			],
-			"name": "scared"
+			]
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/bfscared",
 	"position": [
-		-90,
-		180
+		90,
+		400
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -43,9 +43,9 @@
 		209
 	],
 	"camera_position": [
-		0,
-		0
+		180,
+		-220
 	],
 	"sing_duration": 4,
-	"scale": 0.9
+	"scale": 1.8
 }
